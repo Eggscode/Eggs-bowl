@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    cursor: pointer;
+}
+
 .sb{
     font-size: 22px;
     color: #acacac;
@@ -84,7 +88,7 @@ h4{
 
 .toggle{
     display: flex;
-    padding: 1em;
+    padding: .3em 1em;
     justify-content: space-between;
     width: 100%;
     align-items: center;
@@ -169,7 +173,7 @@ h4{
 
 .about p{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 1.7em;
     font-size: 14px;
 }
@@ -180,9 +184,7 @@ h4{
 }
 
 .offers p{
-    font-weight: lighter;
     line-height: 1.7em;
-    font-size: 14px;
     margin-bottom: 1em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -193,7 +195,7 @@ h4{
 }
 
 .offers-pic .label div{
-    background: #fff;
+    background: #e1e0e0;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -246,7 +248,7 @@ h4{
 }
 
 main{
-    background: #4b3535;
+    background: #650101e9;
     list-style: none;
     text-align: center;
     padding: 2em 0;
@@ -276,7 +278,7 @@ main a{
 }
 
 .items p:nth-of-type(even){
-    font-weight: lighter;
+    font-weight: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .items h3{
@@ -335,7 +337,7 @@ height: 200px;
 
 .card::before{
     display: block;
-    width: 80px;
+    width: 90px;
     content: 'Jul 02,2021';
     background: #4b3535;
     color: #fff;
@@ -348,7 +350,7 @@ height: 200px;
 
 .card p{
     color: #a9a9a9;
-    font-weight: lighter;
+    font-weight: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -376,6 +378,7 @@ footer li{
 }
 
 footer a{
+    cursor: pointer;
     font-size: 14px;
     color: #acacac;
     text-transform: uppercase;
@@ -400,7 +403,7 @@ footer a{
 footer p{
     color: #acacac;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 12px;
     word-spacing: .1em;
 }
@@ -507,7 +510,7 @@ h5{
 }
 
 .testimonies p{
-    font-weight: lighter;
+    font-weight: normal;
     line-height: 1.5em;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -690,14 +693,15 @@ input,textarea, button{
     width: 100%;
     border-radius: 4px;
     outline: none;
-    border: .5px solid #acacac75;
+    border: .5px solid #acacacc2;
     font-family: sans-serif;
-    color: #acacac75;
+    color: #1d1d1d;
 }
 
 button{
     background-color: aqua;
     color: #0a0a0a;
+    border: none;
 }
 
 form h4{
