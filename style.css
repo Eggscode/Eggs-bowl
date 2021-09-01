@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.sb{
+    font-size: 22px;
+    color: #acacac;
+}
+
 
 .mt{
     padding: 10em 2em 2em 2em;
