@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 :root{
     --title-color: #003049;
     --main-bg-color: #d62828;
@@ -647,17 +648,17 @@ form{
         text-align: center;
         flex-direction: column;
         background-color: var(--main-bg-color);
-        width: 100%;
+        width: 0;
         position: absolute;
         padding-bottom: .5em;
         transition: .3s ease-out;
         top: 85px;
-        left: 0px;
-        /* overflow: hidden; */
+        right: 0px;
+        overflow-x: hidden
     }
 
     .nav.active{
-        left: 400px;
+        width: 100vw;
     }
 
     .menu-nav{
